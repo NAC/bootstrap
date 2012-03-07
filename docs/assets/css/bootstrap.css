@@ -2889,7 +2889,7 @@ input[type="submit"].btn.small {
 .navbar .nav > li > a:hover {
   background-color: transparent;
   color: #0071a6;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .navbar .nav .active > a,
 .navbar .nav .active > a:hover {
