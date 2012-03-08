@@ -362,6 +362,7 @@
   .navbar .nav > li > a,
   .navbar .dropdown-menu a {
     padding: 6px 15px;
+    font-weight: bold;
     color: #0071a6;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -369,6 +370,10 @@
   }
   .navbar .dropdown-menu li + li a {
     margin-bottom: 2px;
+  }
+  .navbar .nav > li > a:hover,
+  .navbar .dropdown-menu a:hover {
+    background-color: #222222;
   }
   .navbar .dropdown-menu {
     position: static;
