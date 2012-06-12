@@ -8,12 +8,14 @@ bootstrap/
 *.rej
 *.swo
 *.swp
+*.zip
 *.vi
 *~
 *.sass-cache
 
 # OS or Editor folders
 .DS_Store
+._*
 Thumbs.db
 .cache
 .project
@@ -33,3 +35,4 @@ nbproject
 .svn
 .CVS
 .idea
+node_modules
